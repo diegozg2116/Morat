@@ -23,7 +23,7 @@ justify-content: space-between;
 align-items: center;
 background-color: rgba(255, 255, 255, 0.05);
 border-radius: 12px;
-padding: 20px 24px;
+padding: 30px 34px;
 margin: 10px;
 transition: background-color 0.3s;
 flex-wrap: wrap; /* Para móviles */
@@ -41,7 +41,7 @@ text-align: left;
 
 .cancion .titulo {
 font-weight: bold;
-font-size: 50px; /* más grande */
+font-size: 60px; /* más grande */
 color: #ffffff;
 }
 
@@ -55,7 +55,7 @@ color: #bbbbbb;
 background-color: transparent;
 color: #00c2ff;
 border: none;
-font-size: 50px;
+font-size: 60px;
 cursor: pointer;
 padding: 6px;
 flex-direction: row-reverse;
