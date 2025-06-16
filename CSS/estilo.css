@@ -23,7 +23,7 @@ justify-content: space-between;
 align-items: center;
 background-color: rgba(255, 255, 255, 0.05);
 border-radius: 12px;
-padding: 28px 32px;
+padding: 26px 30px;
 margin: 10px;
 transition: background-color 0.3s;
 flex-wrap: wrap; /* Para móviles */
