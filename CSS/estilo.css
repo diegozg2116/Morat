@@ -41,7 +41,7 @@ text-align: left;
 
 .cancion .titulo {
 font-weight: bold;
-font-size: 40px; /* más grande */
+font-size: 35px; /* más grande */
 color: #ffffff;
 }
 
@@ -55,7 +55,7 @@ color: #bbbbbb;
 background-color: transparent;
 color: #00c2ff;
 border: none;
-font-size: 40px;
+font-size: 35px;
 cursor: pointer;
 padding: 6px;
 flex-direction: row-reverse;
