@@ -1,0 +1,74 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(to bottom, #003049, #001d2e);
+color: white;
+}
+
+h2 {
+padding: 20px;
+margin: 0;
+background-color: #002437;
+text-align: center;
+border-bottom: 1px solid #01475f;
+}
+
+#listaCanciones {
+padding: 10px;
+}
+
+.cancion {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.05);
+border-radius: 12px;
+padding: 12px 16px;
+margin: 10px;
+transition: background-color 0.3s;
+}
+
+.cancion:hover {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cancion span {
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+.cancion .titulo {
+font-weight: bold;
+font-size: 16px;
+color: #ffffff;
+}
+
+.cancion .subtitulo {
+font-size: 13px;
+color: #bbbbbb;
+}
+
+.cancion button {
+background-color: transparent;
+color: #00c2ff;
+border: none;
+font-size: 16px;
+cursor: pointer;
+padding: 6px;
+flex-direction: row-reverse;
+}
+
+#btnSiguienteGlobal {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background-color: #00c2ff;
+border: none;
+color: white;
+font-size: 20px;
+padding: 14px 20px;
+border-radius: 50%;
+box-shadow: 0 4px 15px rgba(0, 194, 255, 0.4);
+cursor: pointer;
+}
